@@ -24,6 +24,6 @@
 
 / {
     chosen {
-        zmk,underglow = &backlight;
+        zmk,backlight = &backlight;
     };
 };

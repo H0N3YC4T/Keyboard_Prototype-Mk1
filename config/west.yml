@@ -5,6 +5,6 @@ manifest:
   projects:
     - name: zmk-prototype_mk1
       remote: H0N3YC4T
-      import: ./west.yml
+      import: west.yml
   self:
     path: config

@@ -1,9 +1,7 @@
 manifest:
-  defaults:
   remotes:
     - name: H0N3YC4T
       url-base: https://github.com/H0N3YC4T
-
   projects:
     - name: zmk-prototype_mk1
       remote: H0N3YC4T

@@ -35,6 +35,8 @@ config LV_Z_BITS_PER_PIXEL
 choice LV_COLOR_DEPTH
     default LV_COLOR_DEPTH_1
 
+endif # LVGL
+
 # ZMK_BACKLIGHT
 if ZMK_BACKLIGHT
 config PWM
@@ -44,5 +46,3 @@ config LED_PWM
 endif # ZMK_BACKLIGHT
 
 endchoice
-endif # LVGL
-

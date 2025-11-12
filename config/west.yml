@@ -2,13 +2,12 @@ manifest:
   defaults:
     revision: v0.3
   remotes:
-    - name: zmkfirmware
-      url-base: https://github.com/zmkfirmware
-    # Additional modules containing boards/shields/custom code can be listed here as well
-    # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
+    - name: H0N3YC4T
+      url-base: https://github.com/H0N3YC4T
+
   projects:
-    - name: zmk
-      remote: zmkfirmware
-      import: app/west.yml
+    - name: zmk-prototype_mk1
+      remote: H0N3YC4T
+      import: ./west.yml
   self:
     path: config

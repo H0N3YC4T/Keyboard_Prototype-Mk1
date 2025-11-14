@@ -3,9 +3,6 @@ id: nice_oled_prototype_mk1
 name: nice!oled
 type: shield
 url: https://github.com/H0N3YC4T/Keyboard_Prototype-Mk1
-requires:
-  - i2c_oled
+requires: [nice_view_header]
 features:
   - display
-siblings:
-  - nice_oled
